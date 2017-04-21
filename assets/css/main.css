@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 *{
 	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
 }
 
 div{
 	width: 200px;
-	margin-bottom: 20px;
+	margin-left: 20px;
 }
 .amarillo {
   background-color: yellow;
@@ -14,13 +15,10 @@ div{
 #fucsia {
   background-color: #DF0174;
   border: 1px green solid;
+  width: 40px;
 }
 
 .amarillo, #fucsia {
-  height: 60px;
-  padding: 10px;
-}
-
-.amarillo p{
-  text-transform: uppercase;
+  height: 40px;
+  display: inline-block;
 }
