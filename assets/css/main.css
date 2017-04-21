@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+*{
+	font-family: 'Raleway', sans-serif;
+}
+
+div{
+	width: 500px;
+}
+.amarillo {
+  background-color: yellow;
+}
+
+#fucsia {
+  background-color: #DF0174;
+  border: 1px green solid;
+}
+
+.amarillo, #fucsia {
+  height: 60px;
+  padding: 10px;
+}
+
+.amarillo p{
+  text-transform: uppercase;
+}
